@@ -1,0 +1,108 @@
+/* home.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    
+   
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Centered text styles */
+  .center-text h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .center-text p {
+    color: #666;
+  }
+  
+  /* Upload button styles */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px dashed white;
+    height:150px;
+    line-height: 150px;
+    align-content: center;
+    position: relative;
+    width:100%;
+    
+
+  }
+  
+  .upload-btn {
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .upload-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Uploaded files list styles */
+  .files-list {
+    
+    color:white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .list-center-text h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #141415;
+    color: #fff;
+  }
+  
+  /* View and Delete links styles */
+  .view-link,
+  .delete-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .view-link:hover,
+  .delete-link:hover {
+    text-decoration: underline;
+  }
+  
